@@ -1,0 +1,81 @@
+
+
+
+Core:
+- Generic bot specific methods and reusable components and managers
+
+
+
+Game:
+- Game specific actions 
+- Only abstract to methods if method is repetitive, otherwise leave it in cog 
+
+
+
+Data:
+- All game data, dynamic settings and logs stored here
+
+
+
+Cogs:
+- Different unloadable cogs are stored ere 
+
+
+Rooms where no actions occur, players may choose to sleep or stay awake. It doesn't impact them whatsoever but the crows nest will be able to tell.
+
+Captains Quarters ./
+-----------------
+The captain must return here every other night to move the ship. 
+Otherwise, the ship will stop moving till the captain returns and puts him in a vulnerable position.
+Mutineers get an energy boost when the ship stops moving.
+Nothing special for other roles.
+
+
+Crow's Nest ./
+-----------
+The player here can choose one room to peek into. At the end of the night, they will receive intel on what occurs in that room. 
+Single player so there is no threat here. 
+
+
+Hammocks ./
+--------
+Safe room for bucaneers
+Mutineers gain energy if they spend time here. 
+
+
+Oars ./
+----
+At least one buccaneer must be present every other night to keep ship moving.
+
+
+
+Chart Room ./
+----------
+If the captain visits here consecutively, the ship will then speed up reducing the turns to shore. 
+If the mutineers visit consecutively, the ship will stop moving. 
+
+
+Armoury ./
+-------
+There is a small chance that a player can gain extra energy for this room. This is by random and only 1 player may receive it. 
+Mutineers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

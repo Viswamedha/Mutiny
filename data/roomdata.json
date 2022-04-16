@@ -1,0 +1,168 @@
+{
+    "lobby": {
+        "name": "Lobby",
+        "description": "You are now in the game, wait till the game begins! You may leave using the leave command!",
+        "energy": 0,
+        "players": 0,
+        "role": "Player",
+        "settings": {
+            "rcs": true,
+            "rct": true,
+            "ecs": false,
+            "ect": false
+        }
+    },
+    "deck": {
+        "name": "Deck",
+        "description": "Main room of the game, all discussions occurs here for living players!",
+        "energy": 0,
+        "players": 0,
+        "role": "Player",
+        "settings": {
+            "rcs": false,
+            "rct": false,
+            "ecs": false,
+            "ect": false
+        }
+    },
+    "mutineer-chat": {
+        "name": "Mutineer Chat",
+        "description": "You are a mutineer and other mutineers can also access this private channel! Plot here...",
+        "energy": 0,
+        "players": 0,
+        "role": null,
+        "settings": {
+            "rcs": false,
+            "rct": false,
+            "ecs": false,
+            "ect": false
+        }
+    },
+    "dj-locker": {
+        "name": "Davy Jone's Locker",
+        "description": "Davy Jone's locker! You are dead and cannot do much till revived! ",
+        "energy": 0,
+        "players": 0,
+        "role": "Dead",
+        "settings": {
+            "rcs": true,
+            "rct": true,
+            "ecs": false,
+            "ect": false
+        }
+    },
+    "crows-nest": {
+        "name": "Crows Nest",
+        "description": "",
+        "role": null,
+        "energy": {
+            "5": 2,
+            "6": 2,
+            "7": 2,
+            "8": 2,
+            "9": 2
+        },
+        "players": {
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 1
+        }
+    },
+    "captains-quarters": {
+        "name": "Captains Quarters",
+        "description": "",
+        "role": null,
+        "energy": {
+            "5": 3,
+            "6": 3,
+            "7": 3,
+            "8": 3,
+            "9": 3
+        },
+        "players": {
+            "5": 2,
+            "6": 3,
+            "7": 3,
+            "8": 3,
+            "9": 4
+        }
+    },
+    "armoury": {
+        "name": "Armoury",
+        "description": "",
+        "role": null,
+        "energy": {
+            "5": 2,
+            "6": 2,
+            "7": 2,
+            "8": 2,
+            "9": 2
+        },
+        "players": {
+            "5": 3,
+            "6": 3,
+            "7": 4,
+            "8": 4,
+            "9": 5
+        }
+    },
+    "chart-room": {
+        "name": "Chart Room",
+        "description": "",
+        "role": null,
+        "energy": {
+            "5": 2,
+            "6": 2,
+            "7": 2,
+            "8": 2,
+            "9": 2
+        },
+        "players": {
+            "5": 2,
+            "6": 3,
+            "7": 3,
+            "8": 3,
+            "9": 4
+        }
+    },
+    "hammocks": {
+        "name": "Hammocks",
+        "description": "",
+        "role": null,
+        "energy": {
+            "5": 2,
+            "6": 2,
+            "7": 2,
+            "8": 2,
+            "9": 2
+        },
+        "players": {
+            "5": 2,
+            "6": 2,
+            "7": 2,
+            "8": 3,
+            "9": 3
+        }
+    },
+    "oars": {
+        "name": "Oars",
+        "description": "",
+        "role": null,
+        "energy": {
+            "5": 2,
+            "6": 2,
+            "7": 2,
+            "8": 2,
+            "9": 2
+        },
+        "players": {
+            "5": 3,
+            "6": 4,
+            "7": 4,
+            "8": 5,
+            "9": 5
+        }
+    }
+}
